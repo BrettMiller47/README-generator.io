@@ -147,8 +147,7 @@ inquirer
             'Mozilla Public 2.0':'[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',
         }
         answers.license = dictLicenseMarkup[answers.license];
-        // Convert the GitHub profile name into 
-        
+
         // Generate the README.md htmlContent
         let htmlContent = generateHtml(answers);
 
